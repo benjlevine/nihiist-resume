@@ -46,13 +46,43 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
+     color: rgb(30, 30, 30);
+     background-color: rgb(242, 239, 233);
+     font-size: 100%;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     margin:0px;
+     margin:5% 10%;
 }
 
 /******************************************
 /* LAYOUT                   
 /*******************************************/
+
+img {
+     background-repeat: no-repeat;
+     background-position: 50%;
+     border-radius: 50%;
+     float: right;
+     margin: 1em 0 2em 2em;
+}
+h1 {
+     font: italic 4em/1em Georgia, 'Times New Roman', Times, serif;
+     color: rgb(0, 190, 225);
+     text-shadow:
+          -1px -1px 0 #fff,  
+          1px -1px 0 #fff,
+          -1px 1px 0 #fff,
+          1px 1px 0 #fff;}
+h2 {
+     font: 1.25em/1em 'Arial Black', 'sans-serif';
+     margin: 1em 0 0.5em;
+     color: rgb(60, 60, 60);
+}
+ul {
+     margin: 0 auto;
+}
+li {
+     display: inline;
+     padding: 0em 1em;
+     font: 0.83em 'Arial Black', 'sans-serif';
+}
