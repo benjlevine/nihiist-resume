@@ -65,8 +65,16 @@ img {
      float: right;
      margin: 1em 0 2em 2em;
 }
+div.horizrule {
+     clear: both;
+     width: 100%;
+     background-color: rgb(120, 120, 120);
+     height: 3px;
+     margin: 1em 0;
+     border: solid 1px white;
+}
 h1 {
-     font: italic 4em/1em Georgia, 'Times New Roman', Times, serif;
+     font: 4em/0.9375em Georgia, 'Times New Roman', Times, serif;
      color: rgb(0, 190, 225);
      text-shadow:
           -1px -1px 0 #fff,  
@@ -74,12 +82,12 @@ h1 {
           -1px 1px 0 #fff,
           1px 1px 0 #fff;}
 h2 {
-     font: 1.25em/1em 'Arial Black', 'sans-serif';
+     font: bold 1.25em/1em arial, 'sans-serif';
      margin: 1em 0 0.5em;
      color: rgb(60, 60, 60);
 }
 ul {
-     margin: 0 auto;
+     text-align: center;
 }
 li {
      display: inline;
