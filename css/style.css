@@ -94,7 +94,7 @@ h2 {
 }
 ul {
      text-align: center;
-     margin: 1.5em 0;
+     line-height: 3em;
 }
 li {
      display: inline;
