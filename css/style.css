@@ -121,7 +121,7 @@ main p.no-indent {
      text-indent: 0;
 }
 
-main .bold {
+main .lead-in {
      font-style: italic;
      color: rgb(45, 45, 45);
 }
